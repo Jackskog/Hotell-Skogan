@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="sv">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--måste denna vara med säger vilken version som Microsofts webbläsare ska köra i-->
+        <meta name="viewport" content="width=device-width, initial-scale=1"><!--This means that the browser will (probably) render the width of the page at the width of its own screen. So if that screen is 320px wide, the browser window will be 320px wide, rather than way zoomed out and showing 960px-->
+        <title>Hotell Skogan</title>
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/mystyles.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <div class="backgroundImageCVR">
+    <div class="background-image"></div>
+    <div class="content">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Hotell Skogan</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Start</a></li>
+                    <li><a href="boka.html">Boka</a></li>
+                    <li><a href="hitta.html">Hitta</a></li> 
+                    <li  class="active"><a href="kontakta.html">Kontakta</a></li> 
+                </ul>
+            </div>
+        </nav>
+
+        
+
+            <div id="text">
+			<div class="container-fluid">
+				<h1>Kontakta oss</h1> 
+
+				<form class="form-horizontal">
+					<div class="form-group">
+						<label class="control-label col-sm-4" for="email">Namn:</label>
+						<div class="col-sm-5">
+							<input  class="form-control" id="email" placeholder="Namn">
+						</div>
+
+					</div>
+					<div class="form-group">
+						<label class="control-label col-sm-4" for="email">Email:</label>
+						<div class="col-sm-5">
+							<input type="email" class="form-control"  placeholder="Email">
+						</div>
+                        </div>
+                    
+					<div class="form-group">
+						<label class="control-label col-sm-4" for="comment">Övrigt:</label>
+						<div class="col-sm-5">
+							<textarea class="form-control" rows="5" id="comment"></textarea>
+						</div>
+
+					</div>
+
+					<div class="col-sm-offset-4 col-sm-6">
+						<button type="submit" class="btn btn-default">Skicka</button>
+					</div>
+					<div class="form-group">
+						<label class="control-label col-sm-8" for="email">Nummer: 0735441470</label>
+					</div>
+				</form>
+
+
+			</div>
+		</div>
+    </div>
+</div>
+        
+ 
+        
+        <footer class="navbar-fixed-bottom text-center"><p>Lagunavägen 26 | 218 53 Klagshamn</p></footer>
+
+
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
